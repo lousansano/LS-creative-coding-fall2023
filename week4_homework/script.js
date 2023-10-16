@@ -28,15 +28,12 @@ for (let i = 0; i < triarray.length; i++){ // loop thru the array and draw/updat
   triarray[i].create()
   triarray[i].update()
 
-for (let t = 0; t < triarray.length; t++){ // trying to nest a loop for interaction
- if (i != t && triarray[i].collides(triarray[t])){
-  triarray[i].colorSwap()
- }
+// for (let t = 0; t < triarray.length; t++){ // trying to nest a loop for interaction
+//  if (i != t && triarray[i].collides(triarray[t])){
+//   triarray[i].colorSwap()
+//  }
 
 }
-}
-
-
 }
 
 

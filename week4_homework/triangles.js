@@ -61,23 +61,20 @@ create(){
  }
  }
 
-collides(other){
- var c = (dist(this.x1, this.y1, this.x2, this.y2, this.x3, this.y3)); 
- if (c == this.x1 + other.x1){ // I know I'm on the right track but cant nail how to kinda fake this without vectors
-return true
- } else{
-  return false
+collide(){
+  hit = collidePointTriangle(this.x, this.y, this.x1, this.y1,this.x2,this.y2,this.x3,this.y3);
+  print('colliding?', hit);
 }
 
-}
+
 colorSwap(){
 this.colorR = 255
 this.colorG = 200
 this.colorB = 0
 
 }
-
 }
+
 //NEW IDEAS
 // have tris class create the generic small spinning triangle
 // in main js doc, create the array there and generate upon clicking mouse, store in array
