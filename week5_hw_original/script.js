@@ -77,8 +77,9 @@ console.log(Artwork)
 
   //Ok I need to give up on this, I would like it to grab random values from the art colleciton thing to account for growth
   //but I think Im just gonna hard code in looking thru the first random 400,000 works
-
-    // ArtworkOutput.push(randomArtID)
+  // this is inspired by some tips I found here - https://www.geeksforgeeks.org/find-duplicates-given-array-elements-not-limited-range/
+  
+  // ArtworkOutput.push(randomArtID)
     // for (j = 0; j < artCheck.length; j++){
     //   if (ArtworkOutput[i] == artCheck[j]){
     //     start = true;
