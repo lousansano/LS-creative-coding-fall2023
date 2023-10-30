@@ -1,4 +1,6 @@
-// constructor is configured to create p5 buttons buttons
+// constructor is configured to create custom p5 buttons buttons that have my NHL info in them
+// also have the on press content for showing more info
+//https://github.com/koerismo/p5.buttons
 
 class MakeButton{
     constructor(_x, _y, _width, _height, _align_x, _align_y, _content,_pressedStuff,_pressedStuffLN2){
