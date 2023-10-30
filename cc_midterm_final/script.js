@@ -132,21 +132,21 @@ textOverlay.push(text)
 
 function preload(){
   // load the logo and top text
-  nhllogoImg = loadImage('assets/nhl_Logo.png');
+  nhllogoImg = loadImage('assets/nhl_logo.png');
   textImage1 = loadImage('assets/lastnight.png')
 }
 
 function setup() {
   createCanvas(1000, 1000)
-  image(nhllogoImg, 0,0, 1200, 1200)
-  image(textImage1, 0,0, 1000, 700)
+
   nhlStats()
 }
 
 
 function draw() {
   background(192,192,192)
- 
+  image(nhllogoImg, 0,0, 1200, 1200)
+  image(textImage1, 0,0, 1000, 700)
 
 
   // ok so the font stuff I did for the buttons seems to be overriding this, I see it flash the correct thing for a second then go
