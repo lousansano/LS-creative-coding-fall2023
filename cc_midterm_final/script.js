@@ -132,7 +132,7 @@ textOverlay.push(text)
 
 function preload(){
   // load the logo and top text
-  nhllogoImg = loadImage('assets/nhl_logo.png');
+  nhllogoImg = loadImage('assets/NHL_logo.png');
   textImage1 = loadImage('assets/lastnight.png')
 }
 
