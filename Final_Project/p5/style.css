@@ -1,0 +1,41 @@
+*{
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+#submitButton1{
+	background-image: url('images/icons/submit.png');
+	background-size: cover;
+	background-position: center;
+	border-radius: 10px;
+}
+
+#nameEntryField{
+	font-size: 20px;
+	font-weight: bold;
+	font-family: Verdana, sans-serif;
+	text-align: center;
+	border-radius: 7px;
+}
+
+#forwardButton1{
+	border-radius: 10px;
+	background-image: url('images/icons/rightArrow.png');
+	background-size: cover;
+	background-position: center;
+}
+
+#backButton1{
+	border-radius: 10px;
+	background-image: url('images/icons/leftArrow.png');
+	background-size: cover;
+	background-position: center;
+}
+
+#submitallButton1{
+	border-radius: 10px;
+	background-image: url('images/icons/submitAll.png');
+	background-size: cover;
+	background-position: center;
+}
